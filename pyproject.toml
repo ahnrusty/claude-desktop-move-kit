@@ -1,0 +1,13 @@
+[project]
+name = "claude-desktop-move-kit"
+version = "0.1.0"
+description = "Safe Claude Desktop local data migration helper for macOS and Windows."
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+claude-desktop-move = "claude_desktop_move.__main__:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
